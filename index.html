@@ -19,7 +19,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dhurjati&display=swap" rel="stylesheet">
-    <script src="main.js"></script>
 
 </head>
 
@@ -28,14 +27,14 @@
     <!-- Header section -->
     <header>
         <section class="header_logo">
-            <img src="img/AtomMed.png" alt="AtomMediumSized_Logo">
+            <a href="index.html"><img src="img/AtomMed.png" alt="AtomMediumSized_Logo"></a>
             <h1>Longevity</h1>
         </section>
         <nav>
             <ul>
-                <li><a href="#" id="articles">Articles</a></li>
-                <li><a href="#" id="tips">Tips</a></li>
-                <li><a href="#" id="suggestions">Suggestions</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="#sug" id="suggestions">Suggestions</a></li>
             </ul>
         </nav>
     </header>
@@ -48,7 +47,7 @@
             </p>
             <section>
                 <p>For Contribution, suggestions</p>
-                <a href="#" id="suggestions">Suggestions</a>    
+                <a href="#sug" id="suggestions">Suggestions</a>    
             </section>
         </section>
         <section class="hero_sec2">
@@ -58,39 +57,39 @@
 
     <!-- Main section -->
     <main>
-        <section class="main_articles">
+        <section class="main_articles" id="articles">
             <h3>Articles</h3>
             <ol class="articles_list">
-                <li><a href="#">First Article</a></li>
-                <li><a href="#">Second Article</a></li>
-                <li><a href="#">Third Article</a></li>
-                <li><a href="#">Fourth Article</a></li>
-                <li><a href="#">Fifth Article</a></li>
-                <li><a href="#">Sixth Article</a></li>
+                <li>First Article</li>
+                <li>Second Article</li>
+                <li>Third Article</li>
+                <li>Fourth Article</li>
+                <li>Fifth Article</li>
+                <li>Sixth Article</li>
             </ol>
-            <a href="#">Read more</a>
+            <a href="pages/Articles/articles.html">Read more</a>
         </section>
-        <section class="main_tips">
+        <section class="main_tips" id="tips">
             <h3>Tips</h3>
             <ol class="tips_list">
-                <li><a href="#">First Tip</a></li>
-                <li><a href="#">Second Tip</a></li>
-                <li><a href="#">Third Tip</a></li>
-                <li><a href="#">Fourth Tip</a></li>
-                <li><a href="#">Fifth Tip</a></li>
-                <li><a href="#">Sixth Tip</a></li>
+                <li>First Tip</li>
+                <li>Second Tip</li>
+                <li>Third Tip</li>
+                <li>Fourth Tip</li>
+                <li>Fifth Tip</li>
+                <li>ixth Tip</li>
             </ol>
-            <a href="#">Read more</a>
+            <a href="pages/Tips/tips.html">Read more</a>
         </section>
-        <section class="main_suggestions">
+        <section class="main_suggestions" id="sug">
             <h3>Suggestions</h3>
             <form action="" id="sugform">
                 <label for="name">Name</label><br>
-                <input type="text" id="name" name="name"><br>
+                <input type="text" id="name" name="name" required><br>
                 <label for="email">Email</label><br>
-                <input type="email" id="email" name="email"><br>
+                <input type="email" id="email" name="email" required><br>
                 <label for="message">Message</label><br>
-                <textarea rows="4" cols="50" name="message" form="usrform">
+                <textarea rows="4" cols="50" name="message" form="sugform">
                 </textarea><br>
                 <input type="submit" value="Send">
             </form>
@@ -99,10 +98,10 @@
 
     <!-- Footer section -->
     <footer>
-        <div class="footer_logo">
-            <img src="img/AtomMed.png" alt="AtomMediumSized_Logo">
+        <section class="footer_logo">
+            <a href="index.html"><img src="img/AtomMed.png" alt="AtomMediumSized_Logo"></a>
             <h1>Longevity</h1>
-        </div>
+        </section>
         <p>Designed and Made by MaxML</p>
         <ul>
             <li><a href="#"><img src="img/nav/GitHub.png" alt="GitHub_Logo"></a></li>
