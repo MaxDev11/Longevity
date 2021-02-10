@@ -14,7 +14,7 @@
 
     <!-- Links and scripts -->
     <link rel="shortcut icon" type="image/png" href="img/Atom.png">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -30,36 +30,36 @@
             <a href="index.html" class="logo__picture"><img src="img/AtomMed.png" alt="AtomMediumSized_Logo"></a>
             <h1 class="logo__text">Longevity</h1>
         </section>
-        <nav class="navigation">
-            <ul class="navigation__list">
+        <nav class="nav">
+            <ul class="nav__list">
                 <li><a href="#articles">Articles</a></li>
                 <li><a href="#tips">Tips</a></li>
-                <li><a href="#sug" id="suggestions">Suggestions</a></li>
+                <li><a href="#suggestions" class="nav__suggestions">Suggestions</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Hero section -->
-    <article class="hero">
-        <section class="hero-sec1">
-            <p class="hero-sec1__p">
-                <mark>Articles</mark> and <mark>tips</mark> on topics of health and longevity
-            </p>
-            <section class="hero-sec1__section">
+    <section class="hero">
+        <section class="hero__section1">
+            <h3 class="hero__title">
+                <mark>Articles</mark> and <mark>Tips</mark> on topics of health and longevity
+            </h3>
+            <section class="hero__contribution">
                 <p>For Contribution, suggestions</p>
-                <a href="#sug" id="suggestions">Suggestions</a>    
+                <a href="#suggestions" class="hero__suggestions">Suggestions</a>    
             </section>
         </section>
-        <section class="hero-sec2">
-            <img src="img/AtomBig.png" class="hero-sec2__picture" alt="AtomBig_Logo">
+        <section class="hero__section2">
+            <img src="img/AtomBig.png" class="hero__picture" alt="AtomBig_Logo">
         </section>
-    </article>
+    </section>
 
     <!-- Main section -->
     <main class="main">
-        <section class="main-secs" id="articles">
-            <h3 class="main-secs__h3">Articles</h3>
-            <ol class="main-secs__list">
+        <section class="main-sections" id="articles">
+            <h2 class="main-sections__title">Articles</h2>
+            <ol class="main-sections__list">
                 <li>First Article</li>
                 <li>Second Article</li>
                 <li>Third Article</li>
@@ -67,30 +67,30 @@
                 <li>Fifth Article</li>
                 <li>Sixth Article</li>
             </ol>
-            <a href="pages/articles.html" class="main-secs__btn">Read more</a>
+            <a href="pages/articles.html" class="main-sections__btn">Read more</a>
         </section>
-        <section class="main-secs" id="tips">
-            <h3 class="main-secs__h3">Tips</h3>
-            <ol class="main-secs__list">
+        <section class="main-sections" id="tips">
+            <h2 class="main-sections__title">Tips</h2>
+            <ol class="main-sections__list">
                 <li>First Tip</li>
                 <li>Second Tip</li>
                 <li>Third Tip</li>
                 <li>Fourth Tip</li>
                 <li>Fifth Tip</li>
-                <li>ixth Tip</li>
+                <li>Sixth Tip</li>
             </ol>
-            <a href="pages/tips.html" class="main-secs__btn">Read more</a>
+            <a href="pages/tips.html" class="main-sections__btn">Read more</a>
         </section>
-        <section class="main-form" id="sug">
-            <h3 class="main-form__h3">Suggestions</h3>
-            <form action="" class="main-form__form" id="sugform">
-                <label for="name">Name</label><br>
-                <input type="text" id="name" name="name" required><br>
-                <label for="email">Email</label><br>
-                <input type="email" id="email" name="email" required><br>
-                <label for="message">Message</label><br>
-                <textarea rows="4" cols="50" name="message" form="sugform">
-                </textarea><br>
+        <section class="main-form" id="suggestions">
+            <h2 class="main-form__title">Suggestions</h2>
+            <form action="" class="form" id="suggestions-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea rows="4" cols="50" name="message" form="suggestions-form">
+                </textarea>
                 <input type="submit" value="Send">
             </form>
         </section>
@@ -102,7 +102,7 @@
             <a href="index.html" class="logo__picture"><img src="img/AtomMed.png" alt="AtomMediumSized_Logo"></a>
             <h1 class="logo__text">Longevity</h1>
         </section>
-        <p class="footer__p">Designed and Made by MaxML</p>
+        <p class="footer__text">Designed and Made by MaxML</p>
         <ul class="footer__socialm">
             <li><a href="https://github.com/MaxDev11"><img src="img/nav/GitHub.png" alt="GitHub_Logo"></a></li>
             <li><a href="https://www.youtube.com/channel/UChuGfBqP09My3A3iImHgtmw"><img src="img/nav/YouTube.png" alt="YouTube_Logo"></a></li>
