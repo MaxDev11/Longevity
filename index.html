@@ -25,13 +25,13 @@
 <body>
 
     <!-- Header section -->
-    <header>
-        <section class="header_logo">
-            <a href="index.html"><img src="img/AtomMed.png" alt="AtomMediumSized_Logo"></a>
-            <h1>Longevity</h1>
+    <header class="header">
+        <section class="logo">
+            <a href="index.html" class="logo__picture"><img src="img/AtomMed.png" alt="AtomMediumSized_Logo"></a>
+            <h1 class="logo__text">Longevity</h1>
         </section>
-        <nav>
-            <ul>
+        <nav class="navigation">
+            <ul class="navigation__list">
                 <li><a href="#articles">Articles</a></li>
                 <li><a href="#tips">Tips</a></li>
                 <li><a href="#sug" id="suggestions">Suggestions</a></li>
@@ -41,25 +41,25 @@
 
     <!-- Hero section -->
     <article class="hero">
-        <section class="hero_sec1">
+        <section class="hero-sec1">
             <p>
                 <mark>Articles</mark> and <mark>tips</mark> on topics of health and longevity
             </p>
-            <section>
+            <section class="hero-sec1__section">
                 <p>For Contribution, suggestions</p>
                 <a href="#sug" id="suggestions">Suggestions</a>    
             </section>
         </section>
-        <section class="hero_sec2">
-            <img src="img/AtomBig.png" alt="AtomBig_Logo">
+        <section class="hero-sec2">
+            <img src="img/AtomBig.png" class="hero-sec2__picture" alt="AtomBig_Logo">
         </section>
     </article>
 
     <!-- Main section -->
-    <main>
-        <section class="main_articles" id="articles">
-            <h3>Articles</h3>
-            <ol class="articles_list">
+    <main class="main">
+        <section class="main-sections" id="articles">
+            <h3 class="main-sections__h3">Articles</h3>
+            <ol class="main-sections__list">
                 <li>First Article</li>
                 <li>Second Article</li>
                 <li>Third Article</li>
@@ -67,11 +67,11 @@
                 <li>Fifth Article</li>
                 <li>Sixth Article</li>
             </ol>
-            <a href="pages/Articles/articles.html">Read more</a>
+            <a href="pages/articles/articles.html" class="main-sections__button">Read more</a>
         </section>
-        <section class="main_tips" id="tips">
-            <h3>Tips</h3>
-            <ol class="tips_list">
+        <section class="main-sectinos" id="tips">
+            <h3 class="main-sections__h3">Tips</h3>
+            <ol class="main-sections__list">
                 <li>First Tip</li>
                 <li>Second Tip</li>
                 <li>Third Tip</li>
@@ -79,11 +79,11 @@
                 <li>Fifth Tip</li>
                 <li>ixth Tip</li>
             </ol>
-            <a href="pages/Tips/tips.html">Read more</a>
+            <a href="pages/tips/tips.html" class="main-sections__button">Read more</a>
         </section>
-        <section class="main_suggestions" id="sug">
-            <h3>Suggestions</h3>
-            <form action="" id="sugform">
+        <section class="main-form" id="sug">
+            <h3 class="main-form__h3">Suggestions</h3>
+            <form action="" class="main-form__form" id="sugform">
                 <label for="name">Name</label><br>
                 <input type="text" id="name" name="name" required><br>
                 <label for="email">Email</label><br>
@@ -97,13 +97,13 @@
     </main>
 
     <!-- Footer section -->
-    <footer>
-        <section class="footer_logo">
-            <a href="index.html"><img src="img/AtomMed.png" alt="AtomMediumSized_Logo"></a>
-            <h1>Longevity</h1>
+    <footer class="footer">
+        <section class="logo">
+            <a href="index.html" class="logo__picture"><img src="img/AtomMed.png" alt="AtomMediumSized_Logo"></a>
+            <h1 class="logo__text">Longevity</h1>
         </section>
-        <p>Designed and Made by MaxML</p>
-        <ul>
+        <p class="footer__p">Designed and Made by MaxML</p>
+        <ul class="footer__socialm">
             <li><a href="#"><img src="img/nav/GitHub.png" alt="GitHub_Logo"></a></li>
             <li><a href="#"><img src="img/nav/YouTube.png" alt="YouTube_Logo"></a></li>
             <li><a href="#"><img src="img/nav/Instagram.png" alt="Instagram_Logo"></a></li>
