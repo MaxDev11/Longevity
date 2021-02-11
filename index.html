@@ -13,7 +13,7 @@
     <title>Longevity</title>
 
     <!-- Links and scripts -->
-    <link rel="shortcut icon" type="image/png" href="img/Atom.png">
+    <link rel="shortcut icon" type="image/png" href="img/AtomMed.svg">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
     <!-- Header section -->
     <header class="header">
         <section class="logo">
-            <a href="index.html" class="logo__picture"><img src="img/AtomMed.png" alt="AtomMediumSized_Logo"></a>
+            <a href="index.html" class="logo__picture"><img src="img/AtomMed.svg" alt="AtomMediumSized_Logo"></a>
             <h1 class="logo__text">Longevity</h1>
         </section>
         <nav class="nav">
@@ -36,6 +36,10 @@
                 <li><a href="#tips">Tips</a></li>
                 <li><a href="#suggestions" class="nav__suggestions">Suggestions</a></li>
             </ul>
+            <div class="menu-btn">
+                <div class="line1"></div>
+                <div class="line2"></div>
+            </div>
         </nav>
     </header>
 
@@ -46,7 +50,7 @@
                 <mark>Articles</mark> and <mark>Tips</mark> on topics of health and longevity
             </h3>
             <section class="hero__contribution">
-                <p>For Contribution, suggestions</p>
+                <p class="hero__text">For Contribution, suggestions</p>
                 <a href="#suggestions" class="hero__suggestions">Suggestions</a>    
             </section>
         </section>
@@ -89,7 +93,7 @@
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
                 <label for="message">Message</label>
-                <textarea rows="4" cols="50" name="message" form="suggestions-form">
+                <textarea rows="4" name="message" form="suggestions-form">
                 </textarea>
                 <input type="submit" value="Send">
             </form>
@@ -110,6 +114,8 @@
             <li><a href="https://twitter.com/max_ml13"><img src="img/nav/Twitter.png" alt="Twitter_Logo"></a></li>
         </ul>
     </footer>
+
+    <script src="main.js"></script>
 
 </body>
 
