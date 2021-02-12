@@ -252,16 +252,22 @@ header {
   font-size: 1.3rem;
 }
 
+.main-details__sum:focus {
+  outline: none;
+}
+
 .main-details__text {
   font-family: 'Gentium Basic', serif;
   font-size: 4vw;
   margin: 0;
+  animation: open .5s ease-in-out;
 }
 
 .main-details__btn {
   display: grid;
   grid-template-rows: 1fr;
   justify-content: end;
+  animation: appear 1s ease-in;
 }
 
 .main-details__btn a {
@@ -276,10 +282,11 @@ header {
 
 /* Key frames */
 @keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes open {
+  0% { opacity: 0; transform: translateX(-30px); }
+  100% { opacity: 1; transform: translateX(0px); }
 }
