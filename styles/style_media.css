@@ -1,10 +1,250 @@
 /* Media queries */
-@media (min-width: 1024px) {
+@media (min-width: 1500px) {
+    header {
+        margin: 0 4rem 0 4rem;
+    }
+    .logo__text {
+        font-size: 3rem;
+    }
+    .logo__picture img {
+        width: 4rem;
+    }
+    .nav__list {
+        grid-template-columns: 7.5rem 5.5rem 10rem;
+    }
+    .nav__list li a {
+        font-size: 1.7rem;
+    }
+    .hero__title {
+        font-size: 4rem;
+        line-height: 3.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 2.5rem;
+        margin-left: 4rem;
+    }
+    .hero__contribution {
+        margin-left: 4rem;
+    }
+    .hero__text,
+    .hero__suggestions {
+        font-size: 2rem;
+    }
+    .hero__section2 img {
+        width: 25rem;
+    }
+    .main-sections {
+        margin: 4.5rem 5.5rem 0 5.5rem;
+    }
+    .main-form {
+        margin: 4.5rem 5.5rem 4.5rem 5.5rem
+    }
+    .main-sections__title, 
+    .main-form__title,
+    .main-section__title {
+        font-size: 3rem;
+    }
+    .main-sections__list li {
+        line-height: 2.5rem;
+    }
+    .main-sections__list li,
+    .main-sections__btn,
+    .form label {
+        font-size: 2rem;
+    }
+    .main-sections__list {
+        padding-left: 10rem;
+    }
+    .main-sections__btn {
+        margin-left: 9.7rem;
+    }
+    .form {
+        grid-template-rows: 3rem 2.5rem 3rem 2.5rem 3rem 18rem 4rem;
+        margin: 0.5rem 5rem 2rem 5rem;
+    }
+    #name, #email, #message {
+        font-size: 1.4rem;
+    }
+    #send {
+        font-size: 1.5rem;
+    }
+    .main-section {
+        margin: 0 7rem 0 7rem;
+    }
+    .main-details__sum,
+    .main-details__btn a {
+        font-size: 2.3rem;
+    }  
+    .main-details__text {
+        font-size: 1.9rem;
+    }
+}
 
+@media (min-width: 1024px) and (max-width: 1500px) {
+    header {
+        margin: 0 2rem 0 2rem;
+    }
+    .logo__text {
+        font-size: 2rem;
+    }
+    .logo__picture img {
+        width: 2.69rem;
+    }
+    .nav__list {
+        grid-template-columns: 6.5rem 5rem 8rem;
+    }
+    .nav__list li a {
+        font-size: 1.3rem;
+    }
+    .hero__title {
+        font-size: 3rem;
+        line-height: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    .hero__text,
+    .hero__suggestions {
+        font-size: 1.5rem;
+    }
+    .main-sections {
+        margin: 3.5rem 4.5rem 0 4.5rem;
+    }
+    .main-form {
+        margin: 3.5rem 4.5rem 3.5rem 4.5rem;;
+    }
+    .main-sections__title, 
+    .main-form__title,
+    .main-section__title {
+        font-size: 2.5rem;
+    }
+    .main-sections__list li {
+        line-height: 2rem;
+    }
+    .main-sections__list li,
+    .main-sections__btn,
+    .form label {
+        font-size: 1.6rem;
+    }
+    .main-sections__list {
+        padding-left: 7rem;
+    }
+    .main-sections__btn {
+        margin-left: 6.7rem;
+    }
+    .form {
+        grid-template-rows: 2.5rem 2rem 2.5rem 2rem 2.5rem 15rem 3rem;
+        margin: 0.5rem 5rem 2rem 5rem;
+    }
+    #name, #email, #message {
+        font-size: 1.2rem;
+    }
+    #send {
+        font-size: 1.3rem;
+    }
+    .main-section {
+        margin: 0 5rem 0 5rem;
+    }
+    .main-details__sum, 
+    .main-details__btn a {
+        font-size: 2rem;
+    }  
+    .main-details__text {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 1296px) {
+    .hero__section2 {
+        margin: 2rem 0 4rem 4rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1296px) {
+    .hero__section2 {
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav__list li a:hover {
+        opacity: 0.7;
+    } 
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .hero__title {
+        text-align: start;
+        padding-left: 6rem;
+        padding-right: 4rem;
+    }
+    .hero__contribution {
+        text-align: start;
+        padding-left: 6rem;
+    }
+    .hero__section2 {
+        display: block;
+    }
+    .footer {
+        grid-template-rows: 2rem 5em;
+    }
+    .footer__text {
+        font-size: 1.5rem;
+    }
+    .footer__socialm {
+        grid-template-columns: 3rem 3rem 3rem 3rem;
+        margin: 1.5rem 0 1rem 0;
+    }
+    .footer__socialm li img {
+        width: 2rem;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+    .nav__list {
+        grid-template-columns: 5rem 3.5rem 7.2rem;
+    }
+    .hero__title {
+        font-size: 2.5rem;
+        padding: 0 4rem 0 4rem;
+    }
+    .hero__text,
+    .hero__suggestions {
+        font-size: 1.3rem;
+    }
+    .main-sections__title,
+    .main-form__title,
+    .main-section__title {
+        font-size: 2rem;
+    }
+    .main-sections__list li,
+    .main-sections__btn,
+    .form label {
+        font-size: 1.25rem;
+    }
+    .main-sections__list {
+        line-height: 1.3rem;
+        padding-left: 4rem;
+    }
+    .main-sections__btn {
+        margin-left: 3.7rem;
+    }
+    .form {
+        grid-template-rows: 2rem 1.7rem 2rem 1.7rem 2rem 12rem 2rem;
+        margin: 0.5rem 3rem 2rem 3rem;
+    }
+    .main-section {
+        margin: 0 1.5rem 0 1.5rem;
+    }
+    .main-details__sum,
+    .main-details__btn a {
+        font-size: 1.6rem;
+    }  
+    .main-details__text {
+        font-size: 1.4rem;
+    }
 }
 
 @media (min-width: 640px) {
-    /* Header section */
     header {
         grid-template-columns: 1fr 1fr;
     }
@@ -14,7 +254,6 @@
     }
     .nav__list {
         display: grid;
-        grid-template-columns: 5rem 3.5rem 7.2rem;
         justify-content: center;
         margin: 0;
         padding: 0 1rem 0 0;
@@ -22,40 +261,8 @@
     .menu-btn {
         display: none;
     }
-    /* Hero section */
-    .hero__title {
-        font-size: 2.5rem;
-        padding: 0 4rem 0 4rem;
-    }
-    .hero__text,
-    .hero__suggestions {
-        font-size: 1.3rem;
-    }
-    /* Main section */
-    .main-sections__title,
-    .main-form__title,
-    .main-section__title {
-        font-size: 2rem;
-    }
-    .main-sections p,
-    .form p {
-        margin-bottom: 1.5rem;
-    }
-    .main-sections__list {
-        line-height: 1.3rem;
-        padding-left: 4rem;
-    }
-    .main-sections__btn {
-        margin-left: 2.5rem;
-    }
-    .main-sections__list li,
-    .main-sections__btn,
-    .form label {
-        font-size: 1.25rem;
-    }
-    .form {
-        grid-template-rows: 2rem 1.7rem 2rem 1.7rem 2rem 12rem 2rem;
-        margin: 0.5rem 3rem 2rem 3rem;
+    .main-sections p {
+        margin-bottom: 2rem;
     }
     #name, #email {
         width: 40%;
@@ -63,20 +270,7 @@
     #message {
         width: 80%;
     }
-    /* Articles & Tips */
     .articles, .tips {
         margin-bottom: 2.1rem;
-    }
-    .main-section {
-        margin: 0 1.5rem 0 1.5rem;
-    }
-    .main-details__sum {
-        font-size: 1.6rem;
-    }  
-    .main-details__text {
-        font-size: 1.4rem;
-    }
-    .main-details__btn a {
-        font-size: 1.5rem;
     }
 }
