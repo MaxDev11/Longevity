@@ -89,19 +89,18 @@ header
   margin-top: 5px
   border-radius: 10px
 
-.toggle .line1 
-  width: 20px
-  height: 4px
-  transform: rotate(-45deg) translate(-5px, 1px)
-  background-color: $cerulean-crayola
-  transition: all 1s
-
+.toggle .line1,
 .toggle .line2
   width: 20px
   height: 4px
-  transform: rotate(45deg) translate(-5px, -2px)
   background-color: $cerulean-crayola
   transition: all 1s
+
+.toggle .line1
+  transform: rotate(-45deg) translate(-5px, 1px)
+
+.toggle .line2
+  transform: rotate(45deg) translate(-5px, -2px)
 
 
 /* Hero section */
